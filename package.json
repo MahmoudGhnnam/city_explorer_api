@@ -1,26 +1,27 @@
 {
-  "name": "city_explorer_api",
+  "name": "lab6-city-explorer",
   "version": "1.0.0",
-  "description": "",
+  "description": "**Author**: Your Name Goes Here **Version**: 1.0.0 (increment the patch/fix version number if you make more commits past your first submission)",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MahmoudGhnnam/city_explorer_api.git"
+    "url": "git+https://github.com/Sondos-Braim/lab6-city-explorer.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/MahmoudGhnnam/city_explorer_api/issues"
+    "url": "https://github.com/Sondos-Braim/lab6-city-explorer/issues"
   },
-  "homepage": "https://github.com/MahmoudGhnnam/city_explorer_api#readme",
+  "homepage": "https://github.com/Sondos-Braim/lab6-city-explorer#readme",
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
+    "nodemon": "^2.0.6",
     "pg": "^8.4.2",
     "superagent": "^6.1.0"
   }

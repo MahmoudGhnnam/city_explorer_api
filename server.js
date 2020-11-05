@@ -1,4 +1,3 @@
-6
 'use strict';
 // Constructor
 function Location(city, locationData) {
@@ -112,10 +111,10 @@ function weatherData(request, response) {
   let weatherArr = [];
   superagent.get(url).then(locationData => {
     locationData.body.data.map(data => {
+      
       weatherArr.push(new Weather(data));
     });
-
-    response.json(weatherArr);
+  
     // handlErrors(response);
   });
   // .catch(console.error);
