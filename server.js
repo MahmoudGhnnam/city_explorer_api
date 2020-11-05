@@ -7,7 +7,7 @@ function Location(city, locationData) {
     this.longitude = locationData.lon;
 }
 function Weather(info,time) {
-    this.foreCast=info;
+    this.forecast=info;
     this.time=time;
 }
 // Defining Application Dependencies
