@@ -21,7 +21,6 @@ Node.js, javaScript
 
 ## Credits and Collaborations
  Give credit (and a link) to other people or resources that helped you build this application. 
- Yaqeen Hamad
 
 
 1-Number and name of feature:
