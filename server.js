@@ -40,11 +40,7 @@ app.get('/location', locationData);
 app.get('/weather', weatherData);
 app.get('/trails',trailData);
 app.use('*', notFound);
-function handlErrors(response) {
-    if (response.status === 500) {
-        response.status(500).send('Sorry, something went wrong');
-    }
-}
+
 // Helpers
 function welcomePage(reqeust, response) {
     response.status(200).send('Home Page Welcome to express');
